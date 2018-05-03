@@ -73,6 +73,7 @@ int main()
             {
                 (*j)++;
                 aux = *j;
+                //printf("Filho atual é %d e j %d\n", filhos_criados, *j);
                 if(primo(entrada) == 1) // se for primo
                 {
                     primos[aux] = 1;
